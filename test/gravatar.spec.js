@@ -7,7 +7,7 @@ import Gravatar from '../lib/gravatar';
 import Avatar from '../lib/avatar';
 import Email from '../lib/email';
 
-describe('<Gravatar />', () => {
+describe('<Gravatar/>', () => {
   it('contains an <Avatar/> component', function () {
     const wrapper = mount(<Gravatar/>);
     expect(wrapper.find(Avatar)).to.have.length(1);
