@@ -16,6 +16,6 @@ export default class Email extends React.Component {
 };
 
 Email.propTypes = {
-    handleEmailChange = PropTypes.func,
-    fetchGravatar = PropTypes.func
+    handleEmailChange: PropTypes.func,
+    fetchGravatar: PropTypes.func
   };
